@@ -6,7 +6,117 @@
   <div class="header">
     <h1>
 Ario's Webpage
-</h1>
+</h1>body {
+  margin: 0;
+  padding: 0;
+  margin: 0px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: FireBrick;
+  font-family: Arial, courier, serif;
+  letter-spacing: 0.3em;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+h2 {
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: FireBrick;
+  margin: 0;
+}
+
+p {
+  font-size: 13px;
+  font-family: serif;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.target2 {
+  font-size: 11px;
+  margin: 0;
+}
+
+.target1 {
+  font-size: 11px;
+}
+
+h3 {
+  color: FireBrick;
+  word-spacing: 0.3em;
+  text-align: center;
+  font-size: 17px;
+  font-family: serif;
+  padding-bottom: 5px;
+}
+
+#form {
+  color: FireBrick;
+}
+
+.comment {
+  background-image: -webkit-linear-gradient(#E0E80A, #ADE80E);
+}
+
+.header {
+  background: yellow;
+  padding: 30px 40px;
+  border: 5px dashed;
+}
+
+div.body {
+  border: 2px solid;
+  padding: 10px 10px 20px 40px;
+  margin: 40px;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.comment {
+  border-width: 1px 1px 1px 5px;
+  border-style: hidden hidden hidden solid;
+  border-color: black;
+  border-radius: 20px 0px 0px 20px;
+  padding: 40px;
+  width: 350px;
+  float: right;
+  font-family: serif;
+}
+
+body {
+  background: url("https://static.pexels.com/photos/24114/pexels-photo-24114.jpg") no-repeat center center;
+  background-size: cover;
+  margin: 0px;
+  background-attachment: fixed;
+}
+
+.body img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0px auto;
+  border: 2px solid black;
+}
+td, th, table {
+  border: 1px solid black;
+}
+#span {
+  font: 20px courier;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
     <h2 id="welcome">
 Welcome everyone !
 </h2>
